@@ -3,6 +3,10 @@
     font-family: "inter", sans-serif;
 }
 
+button:hover{
+    opacity: 0.8;
+}
+
 .header {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -176,6 +180,7 @@
     width: 456px;
     height: 477px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .text h1 {
@@ -225,6 +230,11 @@
     width: 275px;
     height: 48px;
     border: 0;
+    padding-left: 20px;
+}
+
+.update div input:focus{
+    outline: none;
 }
 
 .update div button{
