@@ -91,6 +91,21 @@
     display: flex;
     justify-content: center;
 }
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.donate-today .btn1{
+    background: #FF5959;
+    padding: 20px 50px;
+    color: white;
+    border: 0px;
+    border-radius: 2%;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
 
 .our-donate-plan{
     margin-top: 130px;
@@ -132,4 +147,27 @@
 }
 .plan div{
     padding: 58px 22px;
+}
+.contribute1{
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+    padding:0 20%;
+    align-items: center;
+    margin-top: 130px;
+}
+.contribute1 img{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    font-size: 18px;
+    width:492px;
+    margin-top: 20px;
+    color:#707070;
 }
